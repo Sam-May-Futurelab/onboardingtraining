@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: '/assets/hero-animation.json',
+            path: '/hero-animation.json',
             rendererSettings: {
                 preserveAspectRatio: 'xMidYMid slice'
             }
@@ -57,7 +57,7 @@ function initSkylineAnimation() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: '/assets/skyline-animation.json'
+            path: '/skyline-animation.json'
         });
         
         // Store reference for scroll effects
