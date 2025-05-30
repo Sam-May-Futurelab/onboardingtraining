@@ -59,6 +59,43 @@
         </div>
     </section>
 
+    <!-- Interactive Diagnostic Section -->
+    <section class="diagnostic">
+        <div class="container">
+            <h2>Is Your Onboarding Working?</h2>
+            <p class="diagnostic-intro">Answer honestly—no one's keeping score.</p>
+            <div class="diagnostic-checklist">
+                <div class="diagnostic-item">
+                    <input type="checkbox" id="check1" class="diagnostic-checkbox">
+                    <label for="check1">Do new hires know what "great" looks like in Week 1?</label>
+                </div>
+                <div class="diagnostic-item">
+                    <input type="checkbox" id="check2" class="diagnostic-checkbox">
+                    <label for="check2">Do team leads know exactly what to teach?</label>
+                </div>
+                <div class="diagnostic-item">
+                    <input type="checkbox" id="check3" class="diagnostic-checkbox">
+                    <label for="check3">Can new hires find answers without asking you?</label>
+                </div>
+                <div class="diagnostic-item">
+                    <input type="checkbox" id="check4" class="diagnostic-checkbox">
+                    <label for="check4">Do you have clear 30/60/90 day expectations?</label>
+                </div>
+                <div class="diagnostic-item">
+                    <input type="checkbox" id="check5" class="diagnostic-checkbox">
+                    <label for="check5">Could you onboard someone while you're on vacation?</label>
+                </div>
+            </div>
+            <div class="diagnostic-result" id="diagnostic-result">
+                <div class="result-content">
+                    <span class="result-icon">✅</span>
+                    <span class="result-text">3+ No's? Let's fix that.</span>
+                    <a href="#contact" class="result-cta">Book a Free Call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Pain Points Section -->
     <section class="pain-points">
         <div id="skyline-animation" class="skyline-background-animation"></div>
@@ -88,16 +125,19 @@
             <h2>How We Can Work Together</h2>
             <div class="engagement-grid">
                 <div class="engagement-card">
+                    <div class="engagement-icon">🏁</div>
                     <h3>Quickstart</h3>
                     <p>Targeted onboarding template + async support</p>
                     <p class="engagement-note">Perfect for immediate needs and tight timelines</p>
                 </div>
                 <div class="engagement-card">
+                    <div class="engagement-icon">🔧</div>
                     <h3>Fix It Fast</h3>
                     <p>Audit + priority improvements</p>
                     <p class="engagement-note">When you know something's broken but not sure what</p>
                 </div>
                 <div class="engagement-card">
+                    <div class="engagement-icon">🚀</div>
                     <h3>Scale Setup</h3>
                     <p>Full L&D foundations + internal enablement</p>
                     <p class="engagement-note">Ready to build the systems that will carry you to 100+ people</p>
@@ -156,43 +196,6 @@
         </div>
     </section>
 
-    <!-- Interactive Diagnostic Section -->
-    <section class="diagnostic">
-        <div class="container">
-            <h2>Is Your Onboarding Working?</h2>
-            <p class="diagnostic-intro">Answer honestly ... no one's keeping score.</p>
-            <div class="diagnostic-checklist">
-                <div class="diagnostic-item">
-                    <input type="checkbox" id="check1" class="diagnostic-checkbox">
-                    <label for="check1">Do new hires know what "great" looks like in Week 1?</label>
-                </div>
-                <div class="diagnostic-item">
-                    <input type="checkbox" id="check2" class="diagnostic-checkbox">
-                    <label for="check2">Do team leads know exactly what to teach?</label>
-                </div>
-                <div class="diagnostic-item">
-                    <input type="checkbox" id="check3" class="diagnostic-checkbox">
-                    <label for="check3">Can new hires find answers without asking you?</label>
-                </div>
-                <div class="diagnostic-item">
-                    <input type="checkbox" id="check4" class="diagnostic-checkbox">
-                    <label for="check4">Do you have clear 30/60/90 day expectations?</label>
-                </div>
-                <div class="diagnostic-item">
-                    <input type="checkbox" id="check5" class="diagnostic-checkbox">
-                    <label for="check5">Could you onboard someone while you're on vacation?</label>
-                </div>
-            </div>
-            <div class="diagnostic-result" id="diagnostic-result">
-                <div class="result-content">
-                    <span class="result-icon">✅</span>
-                    <span class="result-text">3+ No's? Let's fix that.</span>
-                    <a href="#contact" class="result-cta">Book a Free Call</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Template Download Section -->
     <section class="template-preview">
         <div class="container">
@@ -245,7 +248,8 @@
     <!-- FAQ Section -->
     <section class="faq">
         <div class="container">
-            <h2>Common Questions</h2>
+            <h2>Still Not Sure This Is For You?</h2>
+            <p class="faq-intro">Here are the questions I get most often:</p>
             <div class="faq-grid">
                 <div class="faq-item">
                     <h3>Do I need this if we're still small?</h3>
@@ -299,5 +303,11 @@
     </section>
 
     <script type="module" src="/main.js"></script>
+    
+    <!-- Sticky CTA Button -->
+    <a href="#contact" class="sticky-cta">
+        <span class="sticky-cta-icon">💬</span>
+        Let's Talk
+    </a>
 </body>
 </html>
