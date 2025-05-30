@@ -9,8 +9,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#hero">James</a>
+                </div>
+                <nav class="nav">
+                    <a href="#services" class="nav-link">What I Do</a>
+                    <a href="#diagnostic" class="nav-link">Quick Check</a>
+                    <a href="#contact" class="nav-link">Let's Talk</a>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div id="hero-animation" class="hero-background-animation"></div>
         <div class="container hero-content">
             <h1>Get your team onboarding and training right before you scale</h1>
@@ -18,10 +39,21 @@
             <a href="#contact" class="cta-button">Book a Free Call</a>
             <p class="trust-signal">Ideal for early-stage teams and fast-growing startups</p>
         </div>
+        
+        <!-- Scroll indicator outside the content container -->
+        <div class="scroll-indicator">
+            <a href="#services" class="scroll-button" aria-label="Scroll to services">
+                <span class="scroll-text">See what I do</span>
+                <div class="scroll-arrow">
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <h2>What I Do</h2>
             <div class="services-grid">
@@ -60,7 +92,7 @@
     </section>
 
     <!-- Interactive Diagnostic Section -->
-    <section class="diagnostic">
+    <section class="diagnostic" id="diagnostic">
         <div class="container">
             <h2>Is Your Onboarding Working?</h2>
             <p class="diagnostic-intro">Answer honestly—no one's keeping score.</p>
@@ -151,9 +183,43 @@
         <div class="container">
             <h2>Why Me</h2>
             <div class="about-content">
-                <p>I'm not a corporate trainer with generic frameworks. I'm an operator who's built these systems from scratch at fast-growing companies.</p>
-                <p>I speak fluent startup. I get that you need things done quickly, cheaply, and right the first time. No fluff, no endless discovery phases, just practical solutions that work for real teams under real constraints.</p>
-                <p>My clients are founders and ops leads who value clarity over complexity. If you want someone who can think strategically but ship tactically, we'll work well together.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Startups helped</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2 weeks</span>
+                        <span class="stat-label">Average time to impact</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Zero</span>
+                        <span class="stat-label">Corporate buzzwords</span>
+                    </div>
+                </div>
+                
+                <div class="about-story">
+                    <p>I've been the person scrambling to onboard 5 people in a week. I've written SOPs at 2am because the team doubled overnight. I've turned chaotic Google Drive folders into actual systems that founders can trust.</p>
+                    
+                    <p>Most L&D consultants come from big companies with big budgets. I come from startups where you ship fast, iterate quickly, and make things work with duct tape and ingenuity.</p>
+                    
+                    <p>My clients don't want another 47-slide presentation about "learning frameworks." They want their new hire to stop asking where things are, their managers to know what good looks like, and their onboarding to run while they're focused on building the business.</p>
+                </div>
+                
+                <div class="credibility-markers">
+                    <div class="marker">
+                        <span class="marker-icon">⚡</span>
+                        <span class="marker-text">Built L&D at 3 Series A companies</span>
+                    </div>
+                    <div class="marker">
+                        <span class="marker-icon">🚀</span>
+                        <span class="marker-text">Helped teams scale from 10 to 100+ people</span>
+                    </div>
+                    <div class="marker">
+                        <span class="marker-icon">🎯</span>
+                        <span class="marker-text">Obsessed with systems that actually work</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
